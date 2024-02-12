@@ -13,11 +13,6 @@ const Home = () => {
           <button> Rent Now </button>
         </Link>
         <br></br>
-
-        <br></br>
-        <p className="createdBy">
-          Created by Omar Faruk
-        </p>
       </div>
     </div>
   )
