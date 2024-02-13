@@ -35,8 +35,8 @@ function App() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={"/host"} className="nav-link">
-                Host
+              <Link to={"/login"} className="nav-link">
+                Login
               </Link>
             </li>
             <li className="nav-item">
@@ -54,7 +54,7 @@ function App() {
           <Route path="/rooms" element={<RoomsList />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Signup />} />
-          <Route path="*" element={<Navigate to="/home" />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
 
       </Router>
